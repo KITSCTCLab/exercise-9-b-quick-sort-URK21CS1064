@@ -1,6 +1,6 @@
 from typing import List
 
-def merge_sort(array):
+def quick_sort(array):
     size=len(data)
     for index in range(size):
         small_index = index
@@ -16,4 +16,4 @@ for item in input_data.split(', '):
         data.append(int(item))
     elif item.lstrip("-").isnumeric():
         data.append(int(item))
-merge_sort(data)
+quick_sort(data)
